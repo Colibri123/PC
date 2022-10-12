@@ -26,6 +26,7 @@ namespace PC
             InitializeComponent();
             q.ViewModel.Status = "Идет проверка лицензии";
             q.Show();
+            q.Close();
         }      
         
     }
