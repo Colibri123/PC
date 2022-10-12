@@ -1,0 +1,16 @@
+﻿<dx:ThemedWindow
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+    xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+    x:Class="PC.mainform"
+    Title="Авторизация" Height="328" Width="362" WindowStartupLocation="CenterScreen" ResizeMode="NoResize"
+    >
+    <Grid>
+        <Label Content="Имя пользователя" Margin="59,61,54.333,0" VerticalAlignment="Top" FontSize="18"/>
+        <dxe:ComboBoxEdit Name="CBNameUser" Margin="59,96,54.333,0" VerticalAlignment="Top"/>
+        <Label Content="Пароль" Margin="59,123,54.333,0" VerticalAlignment="Top" FontSize="18"/>
+        <dxe:PasswordBoxEdit Name="Pass" Margin="59,158,54.333,0" VerticalAlignment="Top"/>
+        <dx:SimpleButton Content="Вход" Height="41" Margin="113,201,109.333,0" VerticalAlignment="Top" FontSize="18" Click="SimpleButton_Click"/>
+    </Grid>
+</dx:ThemedWindow>
