@@ -51,7 +51,7 @@ namespace PC
         {
             License license = new License();
             license.ShowDialog();
-            //new Thread(loadUser).Start();
+            new Thread(loadUser).Start();
         }
 
         public void loadUser()

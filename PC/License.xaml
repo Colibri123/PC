@@ -10,9 +10,9 @@
     <Grid Background="#800080">
         <Label Content="Программа не активирована, прошу обратиться к администратору программы для её активации" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="964" Height="33" FontSize="20" Foreground="White"/>
 
-        <dxe:TextEdit HorizontalAlignment="Left" Margin="10,144,0,0" VerticalAlignment="Top" Width="561" Height="29"/>
+        <dxe:TextEdit Name="KeyLic" HorizontalAlignment="Left" Margin="10,144,0,0" VerticalAlignment="Top" Width="561" Height="29"/>
         <Label Content="Введите ключ активации" HorizontalAlignment="Left" Margin="10,106,0,0" VerticalAlignment="Top" Width="256" Height="33" FontSize="20" Foreground="White"/>
-        <dx:SimpleButton Content="Активировать" HorizontalAlignment="Left" Margin="815,149,0,0" VerticalAlignment="Top" Width="159" Height="24"/>
+        <dx:SimpleButton Content="Активировать" HorizontalAlignment="Left" Margin="815,149,0,0" VerticalAlignment="Top" Width="159" Height="24" Click="SimpleButton_Click"/>
 
     </Grid>
 </dx:ThemedWindow>
